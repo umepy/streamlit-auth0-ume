@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="streamlit-auth0-ume",
-    version="0.1.0",
+    version="0.1.1",
     author="",
     author_email="",
     description="",
@@ -18,6 +18,6 @@ setuptools.setup(
         # If your component has other Python dependencies, list
         # them here.
         "streamlit >= 0.63",
-        "python-jose == 3.3.0"
+        "python-jose == 3.3.0",
     ],
 )
