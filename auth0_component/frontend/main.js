@@ -1,8 +1,7 @@
-import { Streamlit } from "streamlit-component-lib"
 import createAuth0Client from '@auth0/auth0-spa-js';
-import Toastify from 'toastify-js'
-import "toastify-js/src/toastify.css"
-import "./style.css"
+import { Streamlit } from "streamlit-component-lib";
+import "toastify-js/src/toastify.css";
+import "./style.css";
 
 const div = document.body.appendChild(document.createElement("div"))
 const button = div.appendChild(document.createElement("button"))
@@ -10,7 +9,7 @@ button.className = "log"
 button.textContent = "Login"
 
 // set flex collumn so the error message appears under the button
-div.style = "display: flex; flex-direction: column; color: rgb(104, 85, 224); font-weight: 600; margin: 0; padding: 10px"
+div.style = "display: flex; text-align: center; flex-direction: column; color: rgb(104, 85, 224); font-weight: 600; margin: 0; padding: 10px"
 const errorNode = div.appendChild(document.createTextNode(""))
 
 // Global vars
