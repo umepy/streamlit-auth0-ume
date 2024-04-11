@@ -6,7 +6,7 @@ import "./style.css";
 const div = document.body.appendChild(document.createElement("div"))
 const button = div.appendChild(document.createElement("button"))
 button.className = "log"
-button.textContent = "Login"
+button.textContent = "無料で試す"
 
 // set flex collumn so the error message appears under the button
 div.style = "display: flex; align-items: center; flex-direction: column; color: rgb(104, 85, 224); font-weight: 600; margin: 0; padding: 10px"
